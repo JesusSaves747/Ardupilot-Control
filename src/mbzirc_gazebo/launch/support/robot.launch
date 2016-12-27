@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<launch>
+  <arg name="name" default="uav" />
+  <arg name="model" default="/home/savio/Documents/cmsvt_mbzirc/src/sitl_gazebo/models/iris/iris.sdf" />
+  <!--<arg name="model" default="$(find mbzirc_gazebo)/models/hexacopter/model.sdf" />-->
+  <arg name="x" default="0" />
+  <arg name="y" default="0" />
+  <arg name="z" default="0" />
+  <arg name="R" default="0" />
+  <arg name="P" default="0" />
+  <arg name="Y" default="0" />
+
+  <node name="$(arg name)" pkg="gazebo_ros" type="spawn_model"
+    args="-file '$(arg model)'
+          -sdf
+          -x '$(arg x)'
+          -y '$(arg y)'
+          -z '$(arg z)'
+          -R '$(arg R)'
+          -P '$(arg P)'
+          -Y '$(arg Y)'
+          -model $(arg name)"
+    respawn="false" output="screen" />
+
+</launch>

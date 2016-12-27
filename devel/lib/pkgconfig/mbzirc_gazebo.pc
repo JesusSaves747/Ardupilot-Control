@@ -1,0 +1,8 @@
+prefix=/home/savio/Documents/autonomous-ws/devel
+
+Name: mbzirc_gazebo
+Description: Description of mbzirc_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/savio/Documents/autonomous-ws/devel/lib 
+Requires: 

@@ -1,0 +1,2 @@
+Firmware:klt_tracker:mbzirc_gazebo:wayPointControl
+-DCATKIN_DEVEL_PREFIX=/home/savio/Documents/autonomous-ws/devel -DCMAKE_INSTALL_PREFIX=/home/savio/Documents/autonomous-ws/install -G Unix Makefiles
