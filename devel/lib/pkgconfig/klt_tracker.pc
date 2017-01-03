@@ -1,8 +1,8 @@
-prefix=/home/savio/Documents/autonomous-ws/devel
+prefix=/home/savio/Documents/Ardupilot-Control/devel
 
 Name: klt_tracker
 Description: Description of klt_tracker
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/savio/Documents/autonomous-ws/devel/lib 
+Libs: -L/home/savio/Documents/Ardupilot-Control/devel/lib 
 Requires: 

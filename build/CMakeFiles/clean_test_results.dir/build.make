@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/savio/Documents/autonomous-ws/src
+CMAKE_SOURCE_DIR = /home/savio/Documents/Ardupilot-Control/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/savio/Documents/autonomous-ws/build
+CMAKE_BINARY_DIR = /home/savio/Documents/Ardupilot-Control/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/savio/Documents/autonomous-ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/savio/Documents/autonomous-ws/build/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/savio/Documents/Ardupilot-Control/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/savio/Documents/autonomous-ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/savio/Documents/autonomous-ws/src /home/savio/Documents/autonomous-ws/src /home/savio/Documents/autonomous-ws/build /home/savio/Documents/autonomous-ws/build /home/savio/Documents/autonomous-ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/savio/Documents/Ardupilot-Control/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/savio/Documents/Ardupilot-Control/src /home/savio/Documents/Ardupilot-Control/src /home/savio/Documents/Ardupilot-Control/build /home/savio/Documents/Ardupilot-Control/build /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

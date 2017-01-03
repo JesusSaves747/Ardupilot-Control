@@ -1,8 +1,8 @@
-# Install script for directory: /home/savio/Documents/autonomous-ws/src/klt_tracker
+# Install script for directory: /home/savio/Documents/Ardupilot-Control/src/klt_tracker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/savio/Documents/autonomous-ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/savio/Documents/Ardupilot-Control/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/savio/Documents/autonomous-ws/build/klt_tracker/catkin_generated/installspace/klt_tracker.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/savio/Documents/Ardupilot-Control/build/klt_tracker/catkin_generated/installspace/klt_tracker.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/klt_tracker/cmake" TYPE FILE FILES
-    "/home/savio/Documents/autonomous-ws/build/klt_tracker/catkin_generated/installspace/klt_trackerConfig.cmake"
-    "/home/savio/Documents/autonomous-ws/build/klt_tracker/catkin_generated/installspace/klt_trackerConfig-version.cmake"
+    "/home/savio/Documents/Ardupilot-Control/build/klt_tracker/catkin_generated/installspace/klt_trackerConfig.cmake"
+    "/home/savio/Documents/Ardupilot-Control/build/klt_tracker/catkin_generated/installspace/klt_trackerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/klt_tracker" TYPE FILE FILES "/home/savio/Documents/autonomous-ws/src/klt_tracker/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/klt_tracker" TYPE FILE FILES "/home/savio/Documents/Ardupilot-Control/src/klt_tracker/package.xml")
 endif()
 

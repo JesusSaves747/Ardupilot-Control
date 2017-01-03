@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/savio/Documents/autonomous-ws/src
+CMAKE_SOURCE_DIR = /home/savio/Documents/Ardupilot-Control/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/savio/Documents/autonomous-ws/build
+CMAKE_BINARY_DIR = /home/savio/Documents/Ardupilot-Control/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/savio/Documents/autonomous-ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/savio/Documents/autonomous-ws/src /home/savio/Documents/autonomous-ws/src /home/savio/Documents/autonomous-ws/build /home/savio/Documents/autonomous-ws/build /home/savio/Documents/autonomous-ws/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/savio/Documents/Ardupilot-Control/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/savio/Documents/Ardupilot-Control/src /home/savio/Documents/Ardupilot-Control/src /home/savio/Documents/Ardupilot-Control/build /home/savio/Documents/Ardupilot-Control/build /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/savio/Documents/autonomous-ws/src
+CMAKE_SOURCE_DIR = /home/savio/Documents/Ardupilot-Control/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/savio/Documents/autonomous-ws/build
+CMAKE_BINARY_DIR = /home/savio/Documents/Ardupilot-Control/build
 
 # Utility rule file for roscpp_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/build: roscpp_generate_m
 .PHONY : klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 
 klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	cd /home/savio/Documents/autonomous-ws/build/klt_tracker && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/savio/Documents/Ardupilot-Control/build/klt_tracker && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/depend:
-	cd /home/savio/Documents/autonomous-ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/savio/Documents/autonomous-ws/src /home/savio/Documents/autonomous-ws/src/klt_tracker /home/savio/Documents/autonomous-ws/build /home/savio/Documents/autonomous-ws/build/klt_tracker /home/savio/Documents/autonomous-ws/build/klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/savio/Documents/Ardupilot-Control/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/savio/Documents/Ardupilot-Control/src /home/savio/Documents/Ardupilot-Control/src/klt_tracker /home/savio/Documents/Ardupilot-Control/build /home/savio/Documents/Ardupilot-Control/build/klt_tracker /home/savio/Documents/Ardupilot-Control/build/klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : klt_tracker/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 
