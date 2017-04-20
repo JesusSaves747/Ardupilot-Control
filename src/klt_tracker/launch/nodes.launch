@@ -1,0 +1,14 @@
+<launch>
+
+  <!-- <param name="targetWaypoint" value="0 0 7" /> --> -->
+
+  <node pkg="control_package" type="setPos.py" name="SetPos" output="screen" args="5 4 7"/>
+
+  <node pkg="control_package" type="OffBoardNode" name="OffBoardNode" output="screen"/>
+
+  <!-- <node pkg="waypoint_control" type="setPos.py" name="SetPos" output="screen"/> -->
+
+  <!--<node pkg="klt_tracker" name="VisualNode" type="Visual_servo.py" output="screen"/>-->
+
+
+</launch>

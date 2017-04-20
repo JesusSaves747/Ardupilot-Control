@@ -23,10 +23,14 @@ from cv_bridge import CvBridge, CvBridgeError
 # Define the class that carries out the conversion:
 class image_converter:
 
+  
+
     # Constructor for the "image_converter class"
   def __init__(self):
       # Create a capture object to read in the video from the stream or video file:
-    cap = cv2.VideoCapture('/home/savio/Documents/Computer_Vision/Study/Template matching/Ch#3_GoPro_edited.mp4')
+    #cap = cv2.VideoCapture('/home/savio/Documents/Computer_Vision/Study/Template matching/Ch#3_GoPro_edited.mp4')
+
+    cap = cv2.VideoCapture(0)
 
   # Create a publisher object:
 
@@ -50,8 +54,11 @@ class image_converter:
 
         #print(ret)
 
-        if (cv2.waitKey(25) > 0):
-            break
+        # ch= cv2.waitKey(-2)
+        #
+        # if ch == 27:
+        #     cv2.destroyAllWindowsWindow()
+        #     break
 
         try:
             self.image_pub.publish(self.bridge.cv2_to_imgmsg(image, "bgr8"))
@@ -63,6 +70,7 @@ class image_converter:
 
 
   def callback(self,data):
+
     try:
 
         # Conver the image message to CV2 format: what is bgr8? Blue , Green Red 8- bit float?
@@ -80,7 +88,7 @@ class image_converter:
     cv2.imshow("Image window", cv_image)
 
     # What does waitkey (3) do?
-    #cv2.waitKey(3)
+    cv2.waitKey(1)
 
     # try:
     #   self.image_pub.publish(self.bridge.cv2_to_imgmsg(cv_image, "bgr8"))
@@ -90,15 +98,20 @@ class image_converter:
 def main(args):
 
   rospy.init_node('image_converter', anonymous=True)
-  
+
     # Instantiate an object of the class:
   ic = image_converter()
 
 
   try:
+
     rospy.spin()
+
+
   except KeyboardInterrupt:
+
     print("Shutting down")
+
   cv2.destroyAllWindows()
 
 if __name__ == '__main__':
