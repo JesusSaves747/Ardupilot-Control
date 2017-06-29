@@ -1,0 +1,8 @@
+prefix=/home/savio/Documents/Ardupilot-Control/devel
+
+Name: control_package
+Description: Description of control_package
+Version: 0.0.0
+Cflags: -I/home/savio/Documents/Ardupilot-Control/devel/include
+Libs: -L/home/savio/Documents/Ardupilot-Control/devel/lib 
+Requires: roscpp rospy std_msgs message_runtime

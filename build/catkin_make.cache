@@ -1,2 +1,2 @@
-klt_tracker:waypoint_control
+apriltags_ros/apriltags:apriltags_ros/apriltags_ros:control_package:klt_tracker
 -DCATKIN_DEVEL_PREFIX=/home/savio/Documents/Ardupilot-Control/devel -DCMAKE_INSTALL_PREFIX=/home/savio/Documents/Ardupilot-Control/install -G Unix Makefiles

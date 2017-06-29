@@ -1,6 +1,6 @@
-The system is: Linux - 4.4.0-57-generic - x86_64
+The system is: Linux - 4.4.0-72-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/lib/ccache/cc 
+Compiler: /usr/bin/cc 
 Build flags: 
 Id flags: 
 
@@ -13,7 +13,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is GNU, found in "/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/3.5.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/lib/ccache/c++ 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags: 
 
@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/savio/Documents/Ardupilo
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8680f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8680f.dir/build.make CMakeFiles/cmTC_8680f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f7340/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7340.dir/build.make CMakeFiles/cmTC_f7340.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8680f.dir/testCCompiler.c.o
-/usr/lib/ccache/cc     -o CMakeFiles/cmTC_8680f.dir/testCCompiler.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_8680f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8680f.dir/link.txt --verbose=1
-/usr/lib/ccache/cc       CMakeFiles/cmTC_8680f.dir/testCCompiler.c.o  -o cmTC_8680f -rdynamic 
+Building C object CMakeFiles/cmTC_f7340.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f7340.dir/testCCompiler.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f7340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7340.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f7340.dir/testCCompiler.c.o  -o cmTC_f7340 -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4188c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4188c.dir/build.make CMakeFiles/cmTC_4188c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0c7c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c7c4.dir/build.make CMakeFiles/cmTC_0c7c4.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o
-/usr/lib/ccache/cc     -o CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_4188c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4188c.dir/link.txt --verbose=1
-/usr/lib/ccache/cc      -v CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o  -o cmTC_4188c -rdynamic  
+Building C object CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0c7c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c7c4.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o  -o cmTC_0c7c4 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4188c' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZjVggJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4188c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c7c4' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS0UO3x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0c7c4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4188c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4188c.dir/build.make CMakeFiles/cmTC_4188c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0c7c4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0c7c4.dir/build.make CMakeFiles/cmTC_0c7c4.dir/build]
   ignore line: [make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/lib/ccache/cc     -o CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_4188c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4188c.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/cc      -v CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o  -o cmTC_4188c -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0c7c4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c7c4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o  -o cmTC_0c7c4 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4188c' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZjVggJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4188c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c7c4' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS0UO3x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0c7c4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZjVggJ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccS0UO3x.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4188c] ==> ignore
+    arg [cmTC_0c7c4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_4188c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0c7c4.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_983e5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_983e5.dir/build.make CMakeFiles/cmTC_983e5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_182b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_182b6.dir/build.make CMakeFiles/cmTC_182b6.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_983e5.dir/feature_tests.c.o
-/usr/lib/ccache/cc    -std=c11 -o CMakeFiles/cmTC_983e5.dir/feature_tests.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_983e5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_983e5.dir/link.txt --verbose=1
-/usr/lib/ccache/cc       CMakeFiles/cmTC_983e5.dir/feature_tests.c.o  -o cmTC_983e5 -rdynamic 
+Building C object CMakeFiles/cmTC_182b6.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_182b6.dir/feature_tests.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_182b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_182b6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_182b6.dir/feature_tests.c.o  -o cmTC_182b6 -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeF
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef90e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef90e.dir/build.make CMakeFiles/cmTC_ef90e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_135bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_135bc.dir/build.make CMakeFiles/cmTC_135bc.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef90e.dir/feature_tests.c.o
-/usr/lib/ccache/cc    -std=c99 -o CMakeFiles/cmTC_ef90e.dir/feature_tests.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ef90e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef90e.dir/link.txt --verbose=1
-/usr/lib/ccache/cc       CMakeFiles/cmTC_ef90e.dir/feature_tests.c.o  -o cmTC_ef90e -rdynamic 
+Building C object CMakeFiles/cmTC_135bc.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_135bc.dir/feature_tests.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_135bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_135bc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_135bc.dir/feature_tests.c.o  -o cmTC_135bc -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeF
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b35d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b35d2.dir/build.make CMakeFiles/cmTC_b35d2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e0e2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0e2c.dir/build.make CMakeFiles/cmTC_e0e2c.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b35d2.dir/feature_tests.c.o
-/usr/lib/ccache/cc    -std=c90 -o CMakeFiles/cmTC_b35d2.dir/feature_tests.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b35d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b35d2.dir/link.txt --verbose=1
-/usr/lib/ccache/cc       CMakeFiles/cmTC_b35d2.dir/feature_tests.c.o  -o cmTC_b35d2 -rdynamic 
+Building C object CMakeFiles/cmTC_e0e2c.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_e0e2c.dir/feature_tests.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e0e2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e2c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e0e2c.dir/feature_tests.c.o  -o cmTC_e0e2c -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeF
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31fc8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31fc8.dir/build.make CMakeFiles/cmTC_31fc8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7870a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7870a.dir/build.make CMakeFiles/cmTC_7870a.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_31fc8.dir/testCXXCompiler.cxx.o
-/usr/lib/ccache/c++      -o CMakeFiles/cmTC_31fc8.dir/testCXXCompiler.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_31fc8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31fc8.dir/link.txt --verbose=1
-/usr/lib/ccache/c++        CMakeFiles/cmTC_31fc8.dir/testCXXCompiler.cxx.o  -o cmTC_31fc8 -rdynamic 
+Building CXX object CMakeFiles/cmTC_7870a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_7870a.dir/testCXXCompiler.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7870a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7870a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7870a.dir/testCXXCompiler.cxx.o  -o cmTC_7870a -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eba98/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eba98.dir/build.make CMakeFiles/cmTC_eba98.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_65cad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65cad.dir/build.make CMakeFiles/cmTC_65cad.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o
-/usr/lib/ccache/c++      -o CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_eba98
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eba98.dir/link.txt --verbose=1
-/usr/lib/ccache/c++       -v CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_eba98 -rdynamic  
+Building CXX object CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_65cad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65cad.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_65cad -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eba98' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRqDrk2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eba98 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_65cad' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYi3dSR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_65cad /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_eba98/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_eba98.dir/build.make CMakeFiles/cmTC_eba98.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_65cad/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_65cad.dir/build.make CMakeFiles/cmTC_65cad.dir/build]
   ignore line: [make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/lib/ccache/c++      -o CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_eba98]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eba98.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/c++       -v CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_eba98 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_65cad]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65cad.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_65cad -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eba98' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRqDrk2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eba98 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_65cad' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYi3dSR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_65cad /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccRqDrk2.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYi3dSR.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_eba98] ==> ignore
+    arg [cmTC_65cad] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_eba98.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_65cad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf79d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf79d.dir/build.make CMakeFiles/cmTC_cf79d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_507da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_507da.dir/build.make CMakeFiles/cmTC_507da.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf79d.dir/feature_tests.cxx.o
-/usr/lib/ccache/c++     -std=c++14 -o CMakeFiles/cmTC_cf79d.dir/feature_tests.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cf79d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf79d.dir/link.txt --verbose=1
-/usr/lib/ccache/c++        CMakeFiles/cmTC_cf79d.dir/feature_tests.cxx.o  -o cmTC_cf79d -rdynamic 
+Building CXX object CMakeFiles/cmTC_507da.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_507da.dir/feature_tests.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_507da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_507da.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_507da.dir/feature_tests.cxx.o  -o cmTC_507da -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeF
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2269/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2269.dir/build.make CMakeFiles/cmTC_f2269.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4b70f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b70f.dir/build.make CMakeFiles/cmTC_4b70f.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f2269.dir/feature_tests.cxx.o
-/usr/lib/ccache/c++     -std=c++11 -o CMakeFiles/cmTC_f2269.dir/feature_tests.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f2269
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2269.dir/link.txt --verbose=1
-/usr/lib/ccache/c++        CMakeFiles/cmTC_f2269.dir/feature_tests.cxx.o  -o cmTC_f2269 -rdynamic 
+Building CXX object CMakeFiles/cmTC_4b70f.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_4b70f.dir/feature_tests.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4b70f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b70f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4b70f.dir/feature_tests.cxx.o  -o cmTC_4b70f -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeF
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6b72/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6b72.dir/build.make CMakeFiles/cmTC_c6b72.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c5f0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5f0a.dir/build.make CMakeFiles/cmTC_c5f0a.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c6b72.dir/feature_tests.cxx.o
-/usr/lib/ccache/c++     -std=c++98 -o CMakeFiles/cmTC_c6b72.dir/feature_tests.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c6b72
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b72.dir/link.txt --verbose=1
-/usr/lib/ccache/c++        CMakeFiles/cmTC_c6b72.dir/feature_tests.cxx.o  -o cmTC_c6b72 -rdynamic 
+Building CXX object CMakeFiles/cmTC_c5f0a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_c5f0a.dir/feature_tests.cxx.o -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c5f0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5f0a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c5f0a.dir/feature_tests.cxx.o  -o cmTC_c5f0a -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
@@ -555,28 +555,28 @@ make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeF
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5ff66/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5ff66.dir/build.make CMakeFiles/cmTC_5ff66.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_18ac8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18ac8.dir/build.make CMakeFiles/cmTC_18ac8.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5ff66.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc     -o CMakeFiles/cmTC_5ff66.dir/CheckIncludeFile.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5ff66
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ff66.dir/link.txt --verbose=1
-/usr/lib/ccache/cc       CMakeFiles/cmTC_5ff66.dir/CheckIncludeFile.c.o  -o cmTC_5ff66 -rdynamic 
+Building C object CMakeFiles/cmTC_18ac8.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_18ac8.dir/CheckIncludeFile.c.o   -c /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18ac8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ac8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_18ac8.dir/CheckIncludeFile.c.o  -o cmTC_18ac8 -rdynamic 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3487/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3487.dir/build.make CMakeFiles/cmTC_e3487.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f2659/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2659.dir/build.make CMakeFiles/cmTC_f2659.dir/build
 make[1]: Entering directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3487.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e3487.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e3487
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3487.dir/link.txt --verbose=1
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e3487.dir/CheckFunctionExists.c.o  -o cmTC_e3487 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_f2659.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f2659.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2659.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f2659.dir/CheckFunctionExists.c.o  -o cmTC_f2659 -rdynamic -lpthread 
 make[1]: Leaving directory '/home/savio/Documents/Ardupilot-Control/build/CMakeFiles/CMakeTmp'
 
 

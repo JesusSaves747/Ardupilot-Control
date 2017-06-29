@@ -5,5 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(apriltags_ros/apriltags)
+subdirs(control_package)
 subdirs(klt_tracker)
-subdirs(waypoint_control)
+subdirs(apriltags_ros/apriltags_ros)

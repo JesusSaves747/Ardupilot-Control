@@ -1,0 +1,28 @@
+<launch>
+
+
+  <param name="Start_Tracker" type="int" value="0" /> 
+
+  <param name="Move_Pioneer" type="int" value="0" />   
+
+  <param name="Target_Height" type="double" value="0.15" /> 
+
+  <param name="Following_Distance" type="double" value="2" /> 
+
+  <param name="Start_Following" type="int" value="0" />
+
+  <node pkg="control_package" type="move_pioneer.py" name="Move_Pioneer" output="screen"/>
+
+  <node pkg="control_package" type="setPos.py" name="SetPos" output="screen" args="0 0 0"/>
+
+  <node pkg="control_package" type="OffBoardNode" name="OffBoardNode" output="screen"/>
+
+  <node pkg="klt_tracker" type="target_tracking_class.py" name="Target_Tracker" args="Color" output="screen"/>
+
+  <node pkg="web_video_server" type="web_video_server" name="web_video_server" output="screen"/>
+
+  <node pkg="image_proc" type="image_proc" name="image_proc" ns="/mavros/camera1" output="screen"/>
+
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+
+</launch>

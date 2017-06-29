@@ -1,8 +1,0 @@
-prefix=/home/savio/Documents/Ardupilot-Control/install
-
-Name: waypoint_control
-Description: Description of waypoint_control
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/savio/Documents/Ardupilot-Control/install/lib 
-Requires: 

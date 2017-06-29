@@ -26,6 +26,8 @@ def setPosLocal():
         pub.publish(pose)
         rate.sleep()
 
+    #print (" Published Initial Pose")
+
 
 
 if __name__ == '__main__':

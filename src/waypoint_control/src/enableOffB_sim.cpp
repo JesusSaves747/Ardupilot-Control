@@ -3,41 +3,60 @@
 #include <mavros_msgs/CommandBool.h>
 #include <mavros_msgs/SetMode.h>
 #include <mavros_msgs/State.h>
+#include <iostream>
 
 mavros_msgs::State current_state;
 void state_cb(const mavros_msgs::State::ConstPtr& msg){
     current_state = *msg;
 }
 
-geometry_msgs::PoseStamped targetPose;
-void get_Pos(const geometry_msgs::PoseStamped::ConstPtr& msg2){
-  targetPose=*msg2;
-}
+// geometry_msgs::PoseStamped targetPose;
+// void get_Pos(const geometry_msgs::PoseStamped::ConstPtr& msg2){
+//   targetPose=*msg2;
+// }
 
 int main(int argc, char **argv)
 {
-/*
+
+std::String targetWaypoint;
+
 double xSetPos;
 double ySetPos;
 double zSetPos;
 
 
-   //Parse arguments:
+   //Parse arguments: Input arguments are x,y,z co-ordinates of target waypoint: 
 
-   if (argc>0){
-     xSetPos= *argv[0];
-     ySetPos= *argv[1];
-     zSetPos= *argv[2];
+//    if (argc>0){
 
-   }
-*/
+//      xSetPos= atof(argv[1]);
+//      ySetPos= atof(argv[2]);
+//      zSetPos= atof(argv[3]);
+
+//    }
+
+   // Get the rosparam from the parameter server: 
+    ros::param::get("targetWaypoint", targetWaypoint)
+
+
+
+   // Create a PoseStamped message: 
+   geometry_msgs::PoseStamped targetPose;
+
+   targetPose.pose.position.x = xSetPos;
+   targetPose.pose.position.y = ySetPos;
+   targetPose.pose.position.z = zSetPos;
+   
+
+
+
     ros::init(argc, argv, "offb_node_sim");
     ros::NodeHandle nh;
 
     ros::Subscriber state_sub = nh.subscribe<mavros_msgs::State>
             ("mavros/state", 10, state_cb);
 
-    ros::Subscriber pose_sub= nh.subscribe("savio/Pose",10,get_Pos);
+    //ros::Subscriber pose_sub= nh.subscribe("savio/Pose",10,get_Pos);
 
     ros::Publisher local_pos_pub = nh.advertise<geometry_msgs::PoseStamped>
             ("mavros/setpoint_position/local", 10);
@@ -57,14 +76,12 @@ double zSetPos;
         rate.sleep();
     }
 
-    //geometry_msgs::PoseStamped pose;
-    //pose.pose.position.x = xSetPos;
-    //pose.pose.position.y = ySetPos;
-    //pose.pose.position.z = zSetPos;
 
 
     //send a few setpoints before starting
     for(int i = 100; ros::ok() && i > 0; --i){
+
+        // This is where the desired pose gets published to the Mavros topic: Try intergarting setPos.py with this function: 
         local_pos_pub.publish(targetPose);
         ros::spinOnce();
         rate.sleep();
@@ -96,6 +113,8 @@ double zSetPos;
 
 
         }
+
+
         // If the current is mode is OFFBOARD then arm the vehicle:
         while(ros::ok()){
             if( current_state.mode=="OFFBOARD" && !current_state.armed &&
@@ -109,8 +128,11 @@ double zSetPos;
 
 
 
-
+        // Publish the Target Pose to the set_position_local topic: 
         local_pos_pub.publish(targetPose);
+
+
+        
 
         ros::spinOnce();
         rate.sleep();

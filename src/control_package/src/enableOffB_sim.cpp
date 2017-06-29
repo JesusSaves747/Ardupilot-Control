@@ -129,7 +129,15 @@ int main(int argc, char **argv)
 
 
         // Publish the Target Pose to the set_position_local topic:
+        // int follParam;
+        // ros::param::get("/Start_Follwing", follParam);
+
+        // std::cout<<"Foll:"<<follParam<<std::endl;
+
+
+        // if (follParam ==0){
         local_pos_pub.publish(targetPose);
+        //}
 
 
 
